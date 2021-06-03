@@ -45,7 +45,7 @@
         </div>
     </section>
     <!-- About Me -->
-    <section class="container py-5 px-5 px-md-auto" id="about-me">
+    <section class="container py-5 px-5 px-md-3" id="about-me">
         <div class="card mb-3 border-0">
             <div class="row g-0 d-flex flex-column flex-md-row">
                 <div class="col-md-4">
@@ -67,7 +67,92 @@
         </div>
     </section>
     <section class="container" id="projects"></section>
-    <section class="container" id="experience"></section>
+    <section class="container py-5 px-5 px-md-3" id="qualities">
+        <div class="row text-center py-3">
+            <h3>My Qualities</h3>
+        </div>
+        <div class="row">
+            <ul class="nav nav-tabs justify-content-center" id="experience-pills" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="education-tab" data-bs-toggle="tab"
+                        data-bs-target="#education-list" type="button" role="tab" aria-controls="home"
+                        aria-selected="true">Education</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience-list"
+                        type="button" role="tab" aria-controls="education" aria-controls="false">Experience</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="qualitiesTabContent">
+                <!-- Education -->
+                <div class="tab-pane fade show active" id="education-list" role="tabpanel"
+                    aria-labelledby="education-tab">
+                    <div class="">
+                        <h4>Software Engineering</h4>
+                        <h5 class="muted">Drexel University</h5>
+                        <h6 class="muted">2019 - Present</h6>
+                    </div>
+                </div>
+                <!-- End of Education -->
+                <!-- Experience -->
+                <div class="tab-pane fade" id="experience-list" role="tabpanel" aria-labelledby="experience-tab">
+                    <div class="accordion accordion-flush py-4" id="accordion-experience">
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="Google-SPS">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#Google-SPS-info" aria-expanded="false"
+                                    aria-controls="Google-SPS-info">
+                                    <strong> Participant </strong>
+                                    <div class="small">Google - Software Product Sprint</div>
+                                    <div class="small">2021 - Present</div>
+                                </button>
+                            </h4>
+                            <div id="Google-SPS-info" class="accordion-collapse collapse" aria-labelledby="Google-SPS"
+                                data-bs-parent="accordion-experience">
+                                <div class="accordion-body">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="DS-JD">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#DS-JD-info" aria-expanded="false" aria-controls="DS-JD-info">
+                                    <strong>Junior Developer </strong>
+                                    <div class="small">Draft Studios</div>
+                                    <div class="small">2019 - Present</div>
+                                </button>
+                            </h4>
+                            <div id="DS-JD-info" class="accordion-collapse collapse" aria-labelledby="DS-JD"
+                                data-bs-parent="accordion-experience">
+                                <div class="accordion-body">
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="Google-CSSI">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#Google-CSSI-info" aria-expanded="false"
+                                    aria-controls="Google-CSSI-info">
+                                    <strong>Participant </strong>
+                                    <div class="muted">Google - Computer Science Summer Institute (CSSI)</div>
+                                    <div class="muted">2019 - Present</div>
+                                </button>
+                            </h4>
+                            <div id="Google-CSSI-info" class="accordion-collapse collapse" aria-labelledby="Google-CSSI"
+                                data-bs-parent="accordion-experience">
+                                <div class="accordion-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Experience -->
+            </div>
+        </div>
+    </section>
     <section class="container">
         <p>Click <a href="/hello">here</a> to see content created by server code.</p>
         <p>Click here to get a random message:</p>
