@@ -36,6 +36,7 @@
             </div>
         </div>
     </nav>
+    <!-- End of Navbar -->
     <!-- Hero -->
     <section id="hero" class="card bg-light text-white border-0 px-0">
         <img src="/images/Sky Line.jpg" alt="Image of the Philadelphia skyline" class="card-img w-100 rounded-0" />
@@ -44,6 +45,7 @@
             <h3> David, nice to meet you</h3>
         </div>
     </section>
+    <!-- End of Hero section -->
     <!-- About Me -->
     <section class="container py-5 px-5 px-md-3" id="about-me">
         <div class="card mb-3 border-0">
@@ -66,7 +68,150 @@
             </div>
         </div>
     </section>
-    <section class="container" id="projects"></section>
+    <!-- End of About Me Section -->
+    <!-- Projects -->
+    <section class="container" id="projects">
+        <!-- Modal Buttons -->
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+            <!-- Python Maze Card Button -->
+            <div class="col">
+                <h5 class="card h-100">
+                    <a type="button" class="card h-100" data-bs-toggle="modal" data-bs-target="#pythonMaze">
+                        <div class="card-body">
+                            <span class="card-title">Python Maze</span>
+                            <br>
+                            <span class="small">January 2020 - April 2020</span>
+                        </div>
+                    </a>
+                </h5>
+            </div>
+            <!-- Whee// Card Button -->
+            <div class="col">
+                <h5 class="card h-100">
+                    <a type="button" class="card h-100" data-bs-toggle="modal" data-bs-target="#wheell">
+                        <div class="card-body">
+                            <span class="card-title">Whee//</span>
+                            <br>
+                            <span class="small">July 2019</span>
+                        </div>
+                    </a>
+                </h5>
+            </div>
+            <!-- THe Path of Hope Button -->
+            <div class="col">
+                <h5 class="card h-100">
+                    <a type="button" class="card h-100" data-bs-toggle="modal" data-bs-target="#pathofhope">
+                        <div class="card-body">
+                            <span class="card-title">The Path of Hope</span>
+                            <br>
+                            <span class="small">March 2019 - May 2019</span>
+                        </div>
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <!-- End of Modal Buttons -->
+
+        <!-- Modals -->
+        <!-- Python Maze Modal -->
+        <div class="modal fade" id="pythonMaze" tabindex="-1" aria-labelledby="pythonMazeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="modal-title" id="exampleModalLabel">Python Maze</h5>
+                            <h6 class="small">January 2020 - April 2020</h6>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body card d-flex flex-column flex-md-row">
+                        <img src="/images/python-maze.png" alt="Map of a maze on computer"
+                            class="col-6 col-md-4 mx-auto">
+                        <div class="card-body p-3 px-md-5">
+                            <p class="card-text">
+                                A course project that I worked on while completing my introduction to python3 course.
+                                This project was built using Python3 and using what I learned from my course, I was able
+                                to build a command-line text-based game in which the user types in one of the following
+                                commands ("W", "S", "A", "D") to move the character around the map. The walls are not
+                                visible, however, the user can type one of the following commands as promoted on the
+                                screen to show where the walls are located and see how to get to the finish line.
+                                <br>
+                                With the help of math, I was able to implement a map that tracks the user position
+                                without moving the position of the walls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/davidcastel/Python-Maze" target="_blank" class="btn btn-secondary">See Github
+                            Repo</a>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Whee// Modal -->
+        <div class="modal fade" id="wheell" tabindex="-1" aria-labelledby="wheellModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="modal-title" id="exampleModalLabel">Whee//</h5>
+                            <h6 class="small">July 2019</h6>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body card d-flex flex-column flex-md-row">
+                        <img src="/images/wheellLogo.png" alt="Logo of Wheell" class="col-6 col-md-4 mx-auto">
+                        <div class="card-body p-3 px-md-5">
+                            <p class="card-text">
+                                Final Project for CSSI, showcased to Google Engineers.
+                                Created a Web-Application using Google Maps API, HTML/CSS, JavaScript, and python to
+                                help Wheel Chair users learn more information about the accessibility of a
+                                location-based on their search results.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/ethanimooney/wheell1" target="_blank" class="btn btn-secondary">See Github
+                            Repo</a>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Path of Hope Modal -->
+        <div class="modal fade" id="pathofhope" tabindex="-1" aria-labelledby="pathOfHopeLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="modal-title" id="pathOfHopeTitle">The Path of Hope</h5>
+                            <h6 class="small">March 2019 - May 2019</h6>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body card d-flex flex-column flex-md-row">
+                        <img src="/images/ScreenshotOfPathOfHopeHomepage.png" alt="Image of homepage : The Path Of Hope" class="col-6 col-md-4 mx-auto">
+                        <div class="card-body p-3 px-ms-5">
+                            <p class="card-text">
+                                Created a website using basic HTML and CSS to tell original stories from the
+                                point of view of immigrant children in the United States. The website contains original
+                                artwork and stories.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/davidcastel/The-Path-Of-Hope" target="_blank" class="btn btn-secondary">See Github Repo</a>
+                        <a href="https://davidcastel.github.io/The-Path-Of-Hope/" class="btn btn-info">See Live Project</a>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Projects -->
+    <!-- Qualities -->
     <section class="container py-5 px-5 px-md-3" id="qualities">
         <div class="row text-center py-3">
             <h3>My Qualities</h3>
@@ -143,6 +288,7 @@
             </div>
         </div>
     </section>
+    <!-- End of Qualities Section -->
     <section class="container">
         <p>Click <a href="/hello">here</a> to see content created by server code.</p>
         <p>Click here to get a random message:</p>
