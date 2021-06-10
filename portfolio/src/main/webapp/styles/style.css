@@ -15,6 +15,42 @@
   margin-top: 20px;
 }
 
+#social-media-icons-hover {
+    top: 110px;
+    right: 0rem;
+    left: auto;
+}
+
+#social-media-icons-hover .btn-close {
+    top: -8%;
+    left: -25%;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    width: 1.3em !important;
+    height: 1.3em !important;
+}
+
+#social-media-icons-hover .btn-close:hover {
+    opacity: 1 !important;
+}
+
+#social-media-icons-hover ul {
+    width: 65px;
+}
+
+.icon-container {
+    background-color: transparent;
+}
+
+#social-media-icons-hover i:hover::before {
+    color: var(--teal);
+}
+
+.social-media-btn {
+    font-size: 26px !important;
+}
+
 @media only screen and (min-width: 576px) {
 .modal-dialog {
     max-width: 60rem !important;
