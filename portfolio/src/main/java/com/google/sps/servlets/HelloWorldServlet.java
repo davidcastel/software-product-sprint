@@ -16,7 +16,6 @@ public class HelloWorldServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html;");
-        response.getWriter().println(
-                "<h1>Hello User, <br> how unluck you made your way here ... <br>We'll find your home</h1><a href='/'>Click here to make your way back home </a>");
+        response.getWriter().println("Want to hear a joke? You are going to have to wait then ...");
     }
 }
