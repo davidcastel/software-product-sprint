@@ -359,8 +359,14 @@
         </div>
     </section>
     <!-- End of Qualities Section -->
-    <section class="container">
-        <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+    <section class="container py-5">
+        <h3>Want to see something mystical and rare.</h3>
+        <button class="btn btn-primary" type="button" onclick="fetchHelloWorldServlet()">
+            Click here to check it out
+        </button>
+        <div id="jokes-container"></div>
+    </section>
+    <section class="container py-5">
         <p>Click here to get a random message:</p>
         <button onclick="addRandomGreeting()">Hello</button>
         <div id="greeting-container"></div>
