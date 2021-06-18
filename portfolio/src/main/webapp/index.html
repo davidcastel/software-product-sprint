@@ -372,6 +372,19 @@
         <div id="greeting-container"></div>
     </section>
 
+    <!-- Contact Form -->
+    <form action="/form-handler" method="POST" class="container py-5">
+        <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailInput" name="email-input" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="messageTextArea" class="form-label">Enter Message Here</label>
+            <textarea class="form-control" id="messageTextArea" name="text-input" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 
 
     <!-- Scripts -->
